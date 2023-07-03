@@ -1,0 +1,429 @@
+
+.navBarColor {
+  background: linear-gradient(45deg, #ff6b6b, #c06c84, #6c5b7b);
+}
+
+.navbarLink .nav-link {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.navbarLink .nav-link:hover {
+  color: #ffcc00;
+}
+
+.navbarLink .navbarBtn {
+  background-color: #ffcc00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.navbarLink .navbarBtn:hover {
+  background-color: #c06c84;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbarLink a {
+  color: rgb(13, 245, 249);
+  font-weight: bold;
+  font-size: large;
+}
+
+.navbarBtn {
+  background-color: rgb(181, 254, 9);
+  color: rgb(29, 30, 27);
+  margin-right: 0.5rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.carImg {
+  height: 39rem;
+}
+
+.secPage {
+  margin-top: 8rem;
+}
+
+.secPageText {
+  /* border: 2px solid red; */
+  position: relative;
+}
+
+.selectBoxChaild {
+  position: absolute;
+  background-color: rebeccapurple;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  height: 6rem;
+  width: 100%;
+  top: -11rem;
+}
+h1{
+  margin: 0px;
+    background: none;
+}
+
+.pageSecHeading {
+  /* color: rgb(247, 125, 17); */
+  /* text-shadow: 2px 3px 2px red; */
+  color: #1e1f36;
+  background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100% );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+}
+
+.secPageImg {
+  position: relative;
+  border-radius: 20%;
+  border: 0.7rem solid rgb(253, 129, 110);
+  
+}
+
+.imgSet {
+  position :relative;
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+  text-align: center;
+   padding-left: 60px;
+}
+.imgSet:before {
+  position: absolute;
+  right: -4%;
+  top: -12%;
+  height: 100%;
+  width: 100%;
+  background-image: url(assets/shape.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: 100%;
+  animation: dizzling 10s infinite;
+  -webkit-animation: dizzling 10s infinite;
+  transition: all 300ms ease;
+  content: "";
+}
+
+.thirdPageIcon {
+  font-size: 4rem;
+  color: palevioletred;
+  padding-right: 1rem;
+}
+
+.thirdpPageShado {
+  background-color: rgb(252, 241, 241);
+  box-shadow: 4px 6px 4px rgb(244, 146, 146);
+  height: 13rem;
+}
+
+.groomPageImg {
+  /* height: 20rem; */
+  height: auto;
+  width: 18rem;
+  background-color: rgb(42, 88, 88);
+  border-radius: 2rem;
+}
+
+.groomPageImg1 {
+  height: 10rem;
+  border-radius: 50%;
+}
+
+/* App Page */
+.backColorAppPage {
+  background-color: aliceblue;
+}
+
+.appPage {
+  letter-spacing: 0.5rem;
+  color: rgb(255, 119, 0);
+}
+
+/* footer */
+.footerColour {
+  background-color: rgb(58, 35, 80);
+}
+.backColorAppPage img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.backColorAppPage img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+h1 {
+  transition: transform 0.3s ease-in-out;
+}
+
+h1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.thirdpPageShado {
+  /* Add your existing styles for the card body here */
+  /* ... */
+  position: relative;
+  overflow: hidden;
+}
+
+.thirdpPageShado::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.thirdpPageShado:hover::before {
+  opacity: 1;
+}
+
+.thirdpPageShado i {
+  transition: transform 0.3s;
+}
+
+.thirdpPageShado:hover i {
+  transform: scale(1.2);
+}
+.carousel-caption h1,
+.carousel-caption p {
+  color: #fff;
+}
+
+.carousel-caption strong i {
+  background-color: #ffcc00;
+  color: #fff;
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 4px;
+}
+
+.carousel-caption strong span {
+  font-weight: bold;
+}
+
+/* .carousel-caption strong .text-info {
+  color: #17a2b8;
+} */
+
+.carousel-caption strong .text-light {
+  color: #f8f9fa;
+}
+
+.carousel-caption strong .text-warning {
+  color: #ffcc00;
+}
+.fs-3 i:hover {
+  color: #ff0000; /* Change the color as per your preference */
+  transform: scale(1.2); /* Increase the size on hover */
+  transition: color 0.3s ease, transform 0.3s ease; /* Add smooth transition */
+  cursor: pointer;
+}
+
+.groomPageImg {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.groomPageImg:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow on hover */
+}
+
+.groomPageImg:hover .text-info {
+  color: #ff0000; /* Change the color of .text-info on hover */
+}
+
+.groomPageImg:hover .groomPageImg1 {
+  opacity: 0.7; /* Reduce the opacity of .groomPageImg1 on hover */
+}
+
+.card {
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Move the card up on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a stronger box shadow on hover */
+}
+
+.card:hover .btn {
+  background-color: #ff0000; /* Change the background color of the button on hover */
+}
+
+p.fs-5 {
+  transition: color 0.3s ease; /* Add smooth transition for color change */
+}
+
+p.fs-5:hover {
+  color: #ff0000; /* Change the color of the text on hover */
+}
+
+
+
+.bag {
+  border-radius: 5px;
+  color: #ffffff; /* Set the text color to white */
+  padding: 1rem; /* Add some padding for spacing */
+  text-align: center; /* Center the content */
+}
+
+.text-light:hover {
+  cursor: pointer;
+}
+.container.py-5.cardSection{
+  position: static;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.CardContainer{
+  background: #ffffff;
+  height: 400px;
+  padding: 0.8rem 0 3rem 2rem;
+  margin: 0;
+  margin-left: -18px;
+  margin-right: 0px;
+  display: flex;
+  overflow-x: scroll;
+  overflow: hidden;
+  position: relative;
+}
+.CardContainer .cardDesign:nth-child(1) {
+  z-index: 1;
+  box-shadow: 0rem 0 0rem 0rem;
+}
+.CardContainer .cardDesign:nth-child(2) {
+  left: 159px;
+  z-index: 2;
+}
+.CardContainer .cardDesign:nth-child(3) {
+  left: 286px;
+  z-index: 3;
+}
+.CardContainer .cardDesign:nth-child(4) {
+  left: 413px;
+  z-index: 4;
+}
+.CardContainer .cardDesign:nth-child(5) {
+  left: 540px;
+  z-index: 5;
+}
+.CardContainer .cardDesign:nth-child(6) {
+  left: 667px;
+  z-index: 6;
+}
+.CardContainer .cardDesign:nth-child(7) {
+  left: 794px;
+  z-index: 7;
+}
+.CardContainer .cardDesign:nth-child(8) {
+  left: 921px;
+  z-index: 8;
+}
+.CardContainer .cardDesign:nth-child(9) {
+  left: 1050px;
+  z-index: 9;
+}
+
+
+.cardDesign{
+  min-width: 250px;
+  min-height: 300px;
+  box-shadow: -2rem 0 3rem -2rem #10102f;
+  flex-direction: column;
+  border-radius: 16px;
+  transition: .2s;
+  position: absolute;
+  --featured-img: linear-gradient(360deg,#fff,#262626);
+  /* background-image: radial-gradient(50% 50% at top center,rgba(0,0,0,.66),#262626),var(--featured-img); */
+  background: linear-gradient(360deg,#211f28e3,#bdbdbd);
+}
+.cardDesign:hover {
+  transition: 0.2s;
+  transform: rotate(6deg) translatex(-15px);
+}
+.left:hover {
+  margin-left:100px
+}
+.text-info-card{
+    color: #ffffff;
+    margin-left: 37px;
+    font-size: 16px;
+    line-height: 2.7;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2.7;
+}
+.text-inner{
+  color: #ffffff;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 12px;
+  -webkit-margin-end: 0.66rem;
+  margin-inline-end: 0.66rem;
+  padding: 1rem;
+}
+.custom-gradient {
+  background-image: linear-gradient(to right, #ff0000, #ff3366);
+  /* Customize the gradient colors and direction as needed */
+}
+.fs-4{
+  font-size: inherit !important;
+  color: #f20487;
+}
+
+
+@media screen and (max-width: 850px) {
+  .selectBoxChaild {
+    margin: 0 auto;
+    height: auto;
+    padding: 20px 80px;
+    text-align: center !important;
+    top: -13rem;
+    margin-left: -75px;
+  }
+  .w-25 {
+    width:auto !important;
+}
+.mt-3 {
+  width: auto !important;
+  height: 40px;
+  text-align: center;
+  /* margin-top: -10px !important; */
+  font-size: 15px;
+}
+.gap-5 {
+  gap: 1rem!important;
+}
+.secPageText{
+  margin-top: 10rem;
+}
+.d-flex{
+  display: block !important;
+}
+.secondSection{
+ padding-top: 10rem;
+}
+.secPageImg {
+  width: auto;
+}
+
+}
